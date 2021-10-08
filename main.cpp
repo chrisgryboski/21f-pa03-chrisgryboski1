@@ -19,18 +19,6 @@ for(int i=0; i<20; i++) {
     for(int j=0; j<75000; j++){
         sorted[j]= rand()*75000;
     }
-//    int count = 0;
-//    for (int z = 75000; z > 0; z--) {
-//        sorted[count] = z;
-//        count++;
-//    }
-//}
-//    for(int i=0; i<75000; i++){
-//        std::cout<<sorted[i]<<std::endl;
-//    }
-
-
-    int trial = 20;
 
     std::cout << std::fixed << std::showpoint;
     std::cout.precision(9);
